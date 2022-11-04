@@ -1,0 +1,12 @@
+header{
+    margin-right:100px;
+}
+
+header>h1, ul.nav>li{
+    text-align: right;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline;
+    font-size: 25px;
+    line-height: 40px;
+}
+

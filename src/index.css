@@ -83,32 +83,64 @@ div#interviewinfo{
 }
 
 div.interimg{opacity: 1;}
-
-div.interimg:hover{opacity: 0.7;}
+div.interimg:hover{opacity: 0.8;}
 
 .thumbnail{width:300px; height:400px;}
 
 div.intertitle{
 text-align: center;
 line-height: 70px;
-font-size:18px;
-font-weight: bold;
+font-size: 12px;
 }
 
 /* video */
 div.videoframe{
-  overflow: hidden;}
+overflow: hidden;
+width: 1000px;
+height: 370px;
+}
 
 div.video{
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: center;
-
+display:flex;
+width:400%;
+transition: all 1s;
 }
 
 div.videoimg{
-  margin-right:20px;
+  display:flex;
+  justify-content: space-evenly;
+  width:100vw;
+  margin:0 auto;
 }
 
-div.videoimg>a>img:hover{
-  border:5px solid #fff;}
+div.videoimg img{
+  width: 400px;
+  height: 300px;
+}
+
+div.videoimg img:hover{
+  border:5px solid skyblue;
+  transition:all 0.2s;
+  border-radius: 10%;
+}
+
+div.prevbtn{
+  width:50%;
+  display:inline-block;
+  text-align: left;}
+
+div.nextbtn{
+  width:50%;
+  display:inline-block;
+  text-align: right;}
+
+div.prevbtn> button.prev, 
+div.nextbtn> button.next{
+  padding:5px;
+  border:3px solid #fff;
+  border-radius: 10px;
+}
+
+div.prevbtn>button.prev:hover,
+div.nextbtn>button.next:hover{
+  background-color: rgb(162, 214, 235);}

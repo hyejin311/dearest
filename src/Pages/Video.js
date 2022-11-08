@@ -8,4 +8,5 @@ function Video(){
     </article>
     )
 }
+
 export default Video;
